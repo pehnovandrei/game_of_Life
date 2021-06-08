@@ -78,7 +78,6 @@ public class Gui extends JFrame {
 	class ListenerActionStep implements ActionListener {
         public void actionPerformed(ActionEvent e) {
 			Life.next += 1;
-			//System.out.println(Life.next);
 		}
     }
 	
