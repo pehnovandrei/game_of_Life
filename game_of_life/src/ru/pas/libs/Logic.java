@@ -76,7 +76,6 @@ public class Logic {
 						count++;
 				}
 			if (count == newGeneration.length*newGeneration[0].length){
-				//System.out.print("Game Over: Life repeat self generation from " + generation + " step at ");
 				return true;
 			}else
 				count = 0;
